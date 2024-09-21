@@ -1,0 +1,7 @@
+.dropdown button{
+    background-color: white hsl(0, 0%, 80%);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}

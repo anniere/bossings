@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Application for Graduation</title>
+    </head>
+
+    <body>
+
+        <header>
+            <h1>Luis Arnel Capili</h1>
+        </header> <div style="text-align: center;">
+            <video src="rr.mp4" width="1000" controls></video>
+        </div>                                                                   
+        <br>
+
+        <div style="text-align: center;">
+            Application for Graduation
+        </div>
+
+
+        <fieldset>
+            <legend>My Personal Information</legend>
+            
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname" placeholder="First Name">
+            <br>
+
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname" placeholder="Last Name">
+            <br>
+
+            <label for="mname">Middle Initial:</label>
+            <input type="text" id="mname" name="mname" placeholder="Middle Initial">
+            <br>
+
+            <label for="contact">Contact Number:</label>
+            <input type="text" id="contact" name="contact" placeholder="Contact Number">
+            <br>
+
+            <label style="display: block;">Address:</label>
+            <textarea id="address" rows="5"></textarea><br>
+
+            <label for="studentnum">Student Number:</label>
+            <input type="text" id="studentnum" name="studentnum" placeholder="Student Number">
+            <br>
+
+            <label>Gender:</label>
+            <input type="checkbox" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="checkbox" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+        </fieldset>
+
+
+        <hr style="height: 2px; background-color: rgb(53, 53, 53); border: none;">
+
+
+        <fieldset>
+            <legend>Upload Documents</legend>
+
+            <label for="birth-cert">Birth Certificate:</label>
+            <div class="upload-field">
+                <button>Browse...</button> No file selected.
+            </div>
+            
+
+            <label for="picture">2x2 Picture:</label>
+            <div class="upload-field">
+                <button>Browse...</button> No file selected.
+            </div>
+            
+
+            <label for="grad-picture">Graduation Picture:</label>
+            <select id="grad-picture" name="grad-picture">
+                <option value="browse">Browse...</option>
+                <option value="form137">Form 137</option>
+                <option value="letter">Request Letter</option>
+                <option value="rog">ROG</option>
+            </select>
+            <br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Account</legend>
+                <label for="fname">Username:</label>
+                <input type="text" id="fname" name="fname" placeholder="">
+                <br>
+                <label for="fname">Password:</label>
+                <input type="text" id="fname" name="fname" placeholder="">
+                <br>
+            </header> <div style="text-align: center;">
+                <button>Register</button> <button>Cancel</button>
+        </fieldset>
+    </body>
+</html>
